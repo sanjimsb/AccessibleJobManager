@@ -26,7 +26,10 @@
     </ContentPage.Behaviors>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Command="{Binding AddCommand}">
+        <ToolbarItem Command="{Binding AddCommand}"
+                AutomationProperties.IsInAccessibleTree="true"
+                AutomationProperties.HelpText="Add new job button"
+                     >
             <ToolbarItem.IconImageSource>
                 <OnPlatform x:TypeArguments="ImageSource">
                     <On Platform="Android"
