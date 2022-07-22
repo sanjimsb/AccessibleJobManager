@@ -40,18 +40,22 @@ namespace JobManager.Droid.Services
 
                 return memory.ToArray();
             }
-            catch (FeatureNotSupportedException ex)
+            catch (Exception)
             {
-                // Feature is not supported on the device
+
             }
-            catch (PermissionException ex)
-            {
-                // Permissions not granted
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"CapturePhotoAsync THREW: {ex.Message}");
-            }
+            //catch (FeatureNotSupportedException ex)
+            //{
+            //    // Feature is not supported on the device
+            //}
+            //catch (PermissionException ex)
+            //{
+            //    // Permissions not granted
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"CapturePhotoAsync THREW: {ex.Message}");
+            //}
 
             return null;
         }

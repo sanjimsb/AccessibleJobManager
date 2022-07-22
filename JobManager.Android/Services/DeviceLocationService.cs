@@ -42,23 +42,26 @@ namespace JobManager.Droid.Services
                 {
                     return location;
                 }
-            }
-            catch (FeatureNotSupportedException ex)
+            } catch (Exception)
             {
-                //Handle not supported on device exception.
+
             }
-            catch (FeatureNotEnabledException ex)
-            {
-                //Handle not enabled on device exception.
-            }
-            catch (PermissionException ex)
-            {
-                //Handle permission exception.
-            }
-            catch (Exception ex)
-            {
-                //Unable to get location.
-            }
+            //catch (FeatureNotSupportedException ex)
+            //{
+            //    //Handle not supported on device exception.
+            //}
+            //catch (FeatureNotEnabledException ex)
+            //{
+            //    //Handle not enabled on device exception.
+            //}
+            //catch (PermissionException ex)
+            //{
+            //    //Handle permission exception.
+            //}
+            //catch (Exception ex)
+            //{
+            //    //Unable to get location.
+            //}
 
             return null;
         }
@@ -75,22 +78,26 @@ namespace JobManager.Droid.Services
                     return location;
                 }
             }
-            catch (FeatureNotSupportedException ex)
+            catch(Exception)
             {
-                //Handle not supported on device exception.
+
             }
-            catch (FeatureNotEnabledException ex)
-            {
-                //Handle not enabled on device exception.
-            }
-            catch (PermissionException ex)
-            {
-                //Handle permission exception.
-            }
-            catch (Exception ex)
-            {
-                //Unable to get location.
-            }
+            //catch (FeatureNotSupportedException ex)
+            //{
+            //    //Handle not supported on device exception.
+            //}
+            //catch (FeatureNotEnabledException ex)
+            //{
+            //    //Handle not enabled on device exception.
+            //}
+            //catch (PermissionException ex)
+            //{
+            //    //Handle permission exception.
+            //}
+            //catch (Exception ex)
+            //{
+            //    //Unable to get location.
+            //}
 
             return null;
         }

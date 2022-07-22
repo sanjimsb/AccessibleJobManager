@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -94,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JobManager\JobManager.csproj">
-      <Project>{FFCFD1A1-9BAE-4F60-BA73-811EF47946DD}</Project>
+      <Project>{DD855DF9-F77B-43A3-AC5D-6E640328F1A7}</Project>
       <Name>JobManager</Name>
     </ProjectReference>
   </ItemGroup>
